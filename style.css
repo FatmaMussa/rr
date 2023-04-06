@@ -1,0 +1,77 @@
+.image {
+    float: right;
+    text-align: center;
+    width: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+#image {
+    float: left;
+    padding-right: 0px;
+    background-color: rgba(0,0,0,0.1);
+}
+.Advanced {
+    float: right;
+    text-align: center;
+    width: 15%;
+    padding: 15px;
+    font-size: 20px;
+}
+#Advanced {
+    float: left;
+    padding-right: 0px;
+    background-color:rgba(1,1,1,1.1);
+}
+
+.heading {
+    text-align: center;
+    padding-top: 20;
+    font-size: 55px;
+}
+
+.searching {
+    float: right;
+    text-align: center;
+    width: 22%;
+    padding: 16px;
+    font-size: 18px;
+}
+
+#searching {
+    float: left;
+    padding-right: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search {
+    display: flex;
+    padding-top: 0px;
+    justify-content: center;
+}
+
+input {
+    width: 35%;
+    padding: 15px;
+    border-radius: 13px;
+}
+
+input:hover {
+        border-style: 1px solid;
+        border-color: rgb(221, 208, 208);
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 15px;
+    border-color: rgb(80, 80, 83);
+    border-radius: 10px;
+}
+
+button:hover {
+        background-color: rgb(73, 73, 78);
+        color: rgb(161, 157, 157);
+}
